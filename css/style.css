@@ -247,15 +247,14 @@
   @media only screen and (max-width:850px){
     .navbar-toggler{
       float: right;
-      
-    }
-    .nav-item{
-      margin-left: 21rem;
-    }
+    }  
     .headerarea .mainmenu .navbar .navbar-brand{
       padding:0 1rem 0 1rem;
   }
   .headerarea .mainmenu .navbar {
       padding:1rem 1rem;
+  }
+  .fa-github{
+    padding-right: 1rem;
   }
   }
