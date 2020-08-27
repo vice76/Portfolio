@@ -177,7 +177,7 @@
     font-family: 'Roboto', sans-serif;
     font: normal bold 49px;
     line-height: 60px;
-    letter-spacing: 21px;
+    letter-spacing: 18px;
   }
   .site-main .about-area .about-title .paragraph > p{
     padding: .4rem 0;
@@ -247,7 +247,11 @@
   @media only screen and (max-width:850px){
     .navbar-toggler{
       float: right;
-    }  
+      
+    }
+    .nav-item{
+      margin-left: 20rem;
+    }
     .headerarea .mainmenu .navbar .navbar-brand{
       padding:0 1rem 0 1rem;
   }
