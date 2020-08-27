@@ -247,13 +247,13 @@
   @media only screen and (max-width:850px){
     .navbar-toggler{
       float: right;
-      margin-left: 6rem;
+      
     }
     .nav-item{
-      margin-left: 23rem;
+      margin-left: 21rem;
     }
     .headerarea .mainmenu .navbar .navbar-brand{
-      padding:0 1rem 0 2rem;
+      padding:0 1rem 0 1rem;
   }
   .headerarea .mainmenu .navbar {
       padding:1rem 1rem;
