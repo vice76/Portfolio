@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.headerarea .mainmenu .navbar .navbar-brand{
+    padding:0 2rem 0 5rem;
+}
+.headerarea .mainmenu .navbar {
+    padding:1rem 20rem;
+}
+.headerarea .mainmenu .nav-item .nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+    padding: 1.7rem;
+    color:black;
+}
+.headerarea .mainmenu .navbar-nav .active a{
+    background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.headerarea .mainmenu .navbar-nav a:hover{
+    background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+.site-main .site-banner{
+    background:url(../images/banner2.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+    background-position: 0% 70%;
+}
+.site-main .site-banner .site-title h3{
+    padding-top: 30%;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 15vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+.site-main .site-banner .site-title h1{
+    font-size: 4rem;
+}
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+.site-main .site-banner .banner-image > img{
+    padding:1rem 0;
+    width:60rem;
+}
+.title-text{
+    margin-left: 10rem;
+    font: normal;
+    font-style: bold;
+    font-size: 50px;
+    line-height: 72px;
+    font-family: 'Roboto', sans-serif;
+}
+.txtpro:before{
+    content: '';
+    animation:animate infinite 8s;
+    color:rgb(9, 29, 207);
+  }
+  @keyframes animate{
+    0%{
+      content:'W|';
+    }
+    
+    4%{
+      content:'We|';
+    }
+    
+    8%{
+      content:'Web|';
+    }
+    
+    12%{
+      content:' Web D|';
+    }
+    
+    14%{
+      content:'Web De|';
+    }
+    
+    16%{
+      content:'Web Dev|';
+    }
+    
+    20%{
+      content:'Web Deve|';
+    }
+    
+    24%{
+      content:'Web Devel|';
+    }
+    
+    28%{
+      content:'Web Develo|';
+    }
+    
+    38%{
+      content:'Web Develop|';
+    }
+    42%{
+      content:'Web Develope|';
+    }
+    46%{
+      content:'Web Developer|';
+    }
+    50%{
+      content:'Web Developer A|';
+    }
+    54%{
+      content:'Web Developer An|';
+    }
+    58%{
+      content:'Web Developer And|';
+    }
+    62%{
+      content:'Web Developer And |';
+    }
+    66%{
+      content:'Web Developer And P|';
+    }
+    70%{
+      content:'Web Developer And Pr|';
+    }
+    76%{
+      content:'Web Developer And Pr|';
+    }
+    80%{
+      content:'Web Developer And Pr|';
+    }
+    82%{
+      content:'Web Developer And Pro|';
+    }
+    86%{
+      content:'Web Developer And Prog|';
+    }
+    90%{
+      content:'Web Developer And Progr|';
+    }
+    92%{
+      content:'Web Developer And Progra|';
+    }
+    94%{
+      content:'Web Developer And Program|';
+    }
+    96%{
+      content:'Web Developer And Programm|';
+    }
+    98%{
+      content:'Web Developer And Programme|';
+    }
+    100%{
+      content:'Web Developer And Programmer|';
+    }
+  
+  }
+  .site-main .about-area{
+    padding: 8rem 5rem;
+  }
+  .site-main .about-area .about-title h2 > span{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font: normal bold 49px;
+    line-height: 60px;
+    letter-spacing: 21px;
+  }
+  .site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+  }
+  p.para
+  {
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+    font: normal 500 16px;
+    line-height: 25px;
+  }
+
+
+
+  .heading h2{
+    letter-spacing: 12px;
+    display: block;
+    line-height: 60px;
+  }
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  .call-now{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 2rem;
+  }
+  .call-now .txt{
+    padding-left: 4rem;
+  }
+
+  .message {
+    padding: 15px 40px;
+    background-color: #4458dc;
+    cursor: pointer;
+    box-shadow: 0 7px #0b1552;
+    color: white;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .content{
+    line-height: 18px;
+    font-size: 17px;
+    float:right;
+  }
+  @media only screen and (max-width:850px){
+    .navbar-toggler{
+      float: right;
+      margin-left: 6rem;
+    }
+    .nav-item{
+      margin-left: 23rem;
+    }
+    .headerarea .mainmenu .navbar .navbar-brand{
+      padding:0 1rem 0 2rem;
+  }
+  .headerarea .mainmenu .navbar {
+      padding:1rem 1rem;
+  }
+  }
