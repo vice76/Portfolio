@@ -32,7 +32,7 @@
 
 .site-main .site-banner{
     background:url(../images/banner2.jpg);
-    background-position: left top;
+
     background-repeat: repeat;
     background-position: 0% 70%;
 }
@@ -249,9 +249,7 @@
       float: right;
       
     }
-    .nav-item{
-      margin-left: 17rem;
-    }
+    
     .headerarea .mainmenu .navbar .navbar-brand{
       padding:0 1rem 0 1rem;
   }
